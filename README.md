@@ -1,5 +1,7 @@
 # RandomXorshift
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A simple Xorshift random number generator library.
 
 ## Demo
