@@ -1,18 +1,23 @@
 # RandomXorshift
- 
+
+A simple Xorshift random number generator library.
+
+## Demo
+The example usage is provided in the `RandomXorshift.example.js` file.
+
+## Features
+- Xorshift random number generation
+- Customizable seed value
+
+## Usage
+To use the RandomXorshift library, import it and create a new instance with an optional seed value:
+
 ```js
 import { RandomXorshift } from "https://code4fukui.github.io/RandomXorshift/RandomXorshift.js";
 
-for (let j = 0; j < 2; j++) {
-  const random = new RandomXorshift(2463534242);
-  for (let i = 0; i < 10; i++) {
-    console.log(random.next()); // 0から1の間の乱数
-  }
-  console.log();
-}
+const random = new RandomXorshift(2463534242);
+console.log(random.next()); // Outputs a random number between 0 and 1
 ```
 
-## reference
-
-- [Xorshift - Wikipedia](https://en.wikipedia.org/wiki/Xorshift)
-- [code4fukui/RandomMT](https://github.com/code4fukui/RandomMT/)
+## License
+This project is licensed under the MIT License.
