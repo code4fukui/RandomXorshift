@@ -4,9 +4,6 @@
 
 A simple Xorshift random number generator library.
 
-## Demo
-The example usage is provided in the `RandomXorshift.example.js` file.
-
 ## Features
 - Xorshift random number generation
 - Customizable seed value
@@ -22,4 +19,4 @@ console.log(random.next()); // Outputs a random number between 0 and 1
 ```
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).
