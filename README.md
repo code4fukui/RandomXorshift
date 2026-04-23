@@ -5,7 +5,7 @@
 A simple Xorshift random number generator library.
 
 ## Features
-- Xorshift random number generation
+- Xorshift-based random number generation
 - Customizable seed value
 
 ## Usage
